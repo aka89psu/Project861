@@ -1,5 +1,6 @@
-# Project861
-Project for SWENG861 - Individual Course Project - Product Catalog
+# SWENG861 - Individual Course Project - Product Catalog
+
+This is the final project for the course SWENG861 - Software Construction. I have chosen to develop a service oriented product catalog application to allow users to navigate, filter, search, display, and select products within a eCommerce-like area.
 
 # Project Motivations and Goals
 
