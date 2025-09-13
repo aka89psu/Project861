@@ -14,7 +14,7 @@ The technical approach that I have been using to develop the user interface has 
 
 The architecture of this application has characteristics of a distributed monolith as well as microservices as it is a single solution which contains the application and web services but has each domain seperate into its own independent consumer web service to be used by the client application. There is no database for persistence within these services, so they just run inedpenently from each other. Behind each of the consumers is a single producer web service which is accessing the enterprise database consisting of all product, supplier, and classification data. All request for any data from the database are accessed through the provider service and the consumers act as a client that specifies the requirements for retrievals. The caching strategy that is being used is to use in-memory cache capabilitiies of the web services and have it defined at each of the consumer web services. This allows for a single set of cache to be used for all users accessing the product catalog.
 
-![Description](./not_available.jpg)
+![Description](./project861_architecture.jpg)
 
 
 ## Techincal Stack
